@@ -1,0 +1,5 @@
+#!/usr/bin/php
+<?php
+require_once "vendor/autoload.php";
+$boris = new \Boris\Boris('phealngcli> ');
+$boris->start();

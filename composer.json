@@ -1,0 +1,16 @@
+{
+    "name": "3rdpartyeve/phealngcli",
+    "description": "a simple boris+phealng setup",
+    "require": {
+        "d11wtq/boris": "1.0.1",
+        "3rdpartyeve/phealng": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Petermann",
+            "email": "ppetermann80@googlemail.com"
+        }
+    ],
+    "bin": ["phealngcli"]
+}

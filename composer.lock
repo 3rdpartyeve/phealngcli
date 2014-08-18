@@ -1,0 +1,97 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "7149c3fd5441fdc0168cf2f83fdf258f",
+    "packages": [
+        {
+            "name": "3rdpartyeve/phealng",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3rdpartyeve/phealng.git",
+                "reference": "9ade7445bfbb7897184f76a48ff35b1b5b76855f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/3rdpartyeve/phealng/zipball/9ade7445bfbb7897184f76a48ff35b1b5b76855f",
+                "reference": "9ade7445bfbb7897184f76a48ff35b1b5b76855f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pheal\\": "lib/Pheal/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Petermann",
+                    "email": "ppetermann80@googlemail.com",
+                    "homepage": "http://devedge.eu"
+                },
+                {
+                    "name": "Wollari",
+                    "homepage": "http://evemaps.dotlan.net/"
+                }
+            ],
+            "description": "PHP Eve Api Library, a simple PHP lib to access the EVE Online API",
+            "homepage": "https://github.com/3rdpartyeve/phealng",
+            "keywords": [
+                "EVE API",
+                "EVE Online",
+                "Pheal",
+                "PhealNG"
+            ],
+            "time": "2014-06-17 10:36:52"
+        },
+        {
+            "name": "d11wtq/boris",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/d11wtq/boris.git",
+                "reference": "v1.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/d11wtq/boris/zipball/v1.0.1",
+                "reference": "v1.0.1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcntl": "*",
+                "ext-posix": "*",
+                "ext-readline": "*",
+                "php": ">=5.3.0"
+            },
+            "bin": [
+                "bin/boris"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Boris": "lib"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-06-03 10:50:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}
