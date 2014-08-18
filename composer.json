@@ -2,7 +2,7 @@
     "name": "3rdpartyeve/phealngcli",
     "description": "a simple boris+phealng setup",
     "require": {
-        "d11wtq/boris": "1.0.1",
+        "d11wtq/boris": "~1.0",
         "3rdpartyeve/phealng": "*"
     },
     "license": "MIT",
